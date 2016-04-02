@@ -30,7 +30,7 @@ System.register(['angular2/core', './courses.component', './authors.component'],
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n               <h1>My First Angular 2 App</h1>\n               <courses></courses>\n               <authors></authors>\n               ",
+                        template: "\n        <button class=\"btn btn-primary\" [class.active]=\"isActive\">\n            Submit\n        </button>\n               ",
                         directives: [courses_component_1.CoursesComponent, authors_component_1.AuthorsComponent]
                     }), 
                     __metadata('design:paramtypes', [])

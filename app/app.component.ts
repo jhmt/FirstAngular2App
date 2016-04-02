@@ -5,9 +5,9 @@ import {AuthorsComponent} from './authors.component'
 @Component({
     selector: 'my-app',
     template: `
-               <h1>My First Angular 2 App</h1>
-               <courses></courses>
-               <authors></authors>
+        <button class="btn btn-primary" [class.active]="isActive">
+            Submit
+        </button>
                `,
     directives: [CoursesComponent, AuthorsComponent]
 })
